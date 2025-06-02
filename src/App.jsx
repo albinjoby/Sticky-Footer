@@ -2,6 +2,7 @@ import Lenis from 'lenis'
 import React, { useEffect } from 'react'
 import Intro from './components/Intro'
 import Footer from './components/Footer'
+import Header from './components/Header'
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
 
   return (
     <>
+      <Header />
       <Intro /> 
       <Footer />
     </>
